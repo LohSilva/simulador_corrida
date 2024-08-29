@@ -1,32 +1,32 @@
 # 🏎️SIMULADOR DE CORRIDA 
 
 ## **Descrição:**
-O desafio é criar uma lógica de um jogo de vídeo game para simular corrida, baseada na série de jogos de corrida Mario Kart. A lógica deve levar em consideração uma série de regras e mecânica, que será listada abaixo.
+Este simulador de corrida é inspirado na clássica série de jogos Mario Kart, trazendo a emoção das pistas diretamente para o console. O objetivo do projeto é criar uma lógica que simule uma corrida entre personagens, utilizando regras e mecânicas que refletem a dinâminca dos jogos de corrida.
 
 ## 🏃‍♂️Dados sobre os Players:
-- O jogador é composto por 3 ***atributos***:
-  - Velocidade;
-  - Manobrabilidade e;
-  - Poder.
-- São esses atributos que utilizaremos para compor o resultado final da corrida.
+- Cada jogador é definido por 3 ***atributos*** principais:
+  - Velocidade
+  - Manobrabilidade
+  - Poder
+- Esses atributos são fundamentais para determinar o desempenho dos personagens em diferentes tipos de pista e são usados para calcular os resultados das corridas.
 
 
 ## 🥊 Regras e mecânica:
 
 ### 🎮Jogadores:
 
-O computador deve receber dois personagens para disputar a corrida em um objeto cada.
+O simulador recebe dois personagens, cada um com seus próprios atributos, que irão disputar uma corrida.
 
 ### 🛣️Pistas:
-- Os personagens irão correr em uma pista aleatória de 5 rodadas.
-- A cada rodada, será sorteado um bloco da pista que pode ser ***reta***, ***curva*** ou ***confronto***.
-  - Caso o bloco da pista seja uma **RETA**, o jogador deve jogar um dado de 6 lados e somar o atributo **VELOCIDADE**, quem vencer leva um ponto.
-  - Caso o bloco da pista seja uma **CURVA**, o jogador deve jogar um dado de 6 lados e somar o atributo **MANOBRABILIDADE**, quem vencer leva um ponto.
-  - Caso o bloco da pista seja uma **CONFRONTO**, o jogador deve jogar um dado de 6 lados e somar o atributo **PODER**, quem perder perde um ponto. Nesta regra não há soma de ponto.
-  - Nenhum jogador pode ter pontuação negativa (Ou seja, valores abaixo de 0).
+- A corrida é realizada em uma pista composta por 5 rodadas, cada uma representada por um bloco de pista que é sorteado aleatoriamente.
+- Os tipos de blocos são:
+  - **Reta**: Os jogadores rolam um dado de 6 lados e somam o valor ao atributo ***Velocidade***. O jogador com a maior soma *ganha* um ponto.
+  - **Curva**: Os jogadores rolam um dado de 6 lados e somam o valor ao atributo ***Manobrabilidade***. O jogador com a maior soma *ganha* um ponto.
+  - **Confronto**: Os jogadores rolam um dado de 6 lados e somam o valor ao atributo ***Poder***. O jogador com a menor soma *perde* um ponto. No confronto, não há ganho de ponto, apenas perda.
+- Nenhum jogador pode ter **pontuação negativa**, ou seja, os pontos não podem cair abaixo de zero.
 
 ### 🏆Condição de vitória:
-- Ao final, vence quem acumulou mais pontos.
+- Ao final das 5 rodadas, o jogador que acumular mais pontos é declarado o vencedor da corrida. Quem possuir o melhor conjunto de habilidades, combinado com um pouco de sorte, levará o troféu!
 
 ## 🛠️Instalação:
  1. Clone o repositório:
@@ -47,7 +47,7 @@ Para iniciar a simulação, execute o seguinte comando:
 ```bash
 node src/index.js
 ```
-Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players, informando o resultado final da corrida!
+Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players, informando o resultado final da competição!
 
 <p>
 
