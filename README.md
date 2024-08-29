@@ -47,12 +47,12 @@ Para iniciar a simulação, execute o seguinte comando:
 ```bash
 node src/index.js
 ```
-Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players
+Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players, informando o resultado final da corrida!
 
 <p>
 
 <div align="center">
- <img src="https://github.com/LohSilva/LabLanguage-AI900/blob/main/inputs/sentenca_1_positiva.png" width="600" />
+ <img src="https://github.com/LohSilva/simulador_corrida/blob/main/simulacao.png" width="600" />
 </div>
 
 </p>
