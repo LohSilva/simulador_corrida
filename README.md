@@ -1,7 +1,7 @@
 # 🏎️SIMULADOR DE CORRIDA 
 
 ## **Descrição:**
-Este simulador de corrida é inspirado na clássica série de jogos Mario Kart, trazendo a emoção das pistas diretamente para o console. O objetivo do projeto é criar uma lógica que simule uma corrida entre personagens, utilizando regras e mecânicas que refletem a dinâminca dos jogos de corrida.
+Este simulador de corrida é inspirado na clássica série de jogos Mario Kart, trazendo a emoção das pistas diretamente para o console. O objetivo do projeto é criar uma lógica que simule uma corrida entre personagens, utilizando regras e mecânicas que refletem a dinâmica dos jogos de corrida.
 
 ## 🏃‍♂️Dados sobre os Players:
 - Cada jogador é definido por 3 ***atributos*** principais:
@@ -47,7 +47,7 @@ Para iniciar a simulação, execute o seguinte comando:
 ```bash
 node src/index.js
 ```
-Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players, informando o resultado final da competição!
+Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players, informando o resultado da competição!
 
 <p>
 
