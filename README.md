@@ -27,3 +27,35 @@ O computador deve receber dois personagens para disputar a corrida em um objeto 
 
 ### 🏆Condição de vitória:
 - Ao final, vence quem acumulou mais pontos.
+
+## 🛠️Instalação:
+ 1. Clone o repositório:
+```bash
+git clone git@github.com:LohSilva/simulador_corrida.git
+```
+2. Navegue até a pasta onde está o projeto:
+```bash
+cd simulador_corrida
+```
+3. Instale as dependências:
+```bash
+npm install
+```
+
+## ▶️Execução:
+Para iniciar a simulação, execute o seguinte comando:
+```bash
+node src/index.js
+```
+Após a execução do comando, a saída deve conter os dados de uma corrida entre 2 players
+
+<p>
+
+<div align="center">
+ <img src="https://github.com/LohSilva/LabLanguage-AI900/blob/main/inputs/sentenca_1_positiva.png" width="600" />
+</div>
+
+</p>
+
+
+
